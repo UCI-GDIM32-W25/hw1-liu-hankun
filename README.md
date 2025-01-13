@@ -2,41 +2,56 @@
 # HW1
 ## W1L2 In-Class Activity
 
-How would you describe this game world in Objects?
+1. How would you describe this game world in Objects?
 
 UI:
+
 Seeds planted number
+
 Seeds reminded number
 
 Player:
+
 Movement: WASD to move
 
-Seed
+Seed:
+
 Space to plant seeds
 
-What attributes and actions do these objects have?
+2. What attributes and actions do these objects have?
 
 Player:
+
 Attributes:
+
 Bunny sprites
+
 Action:
+
 Push WASD to move
-Push the space to plant the seeds. The number of seeds planted increases, and the seeds
-remaining decrease. (show up in the UI)
+
+Push the space to plant the seeds. The number of seeds planted increases, and the seeds remaining decrease. (show up in the UI)
 
 Plant:
+
 Attributes:
+
 Plant sprites
 
-Seed planted UI
+Seed planted UI:
+
 Attributes: text
+
 Actions: The count goes up when the player plants a seed
 
 Seed remaining UI
+
 Attributes: text 
+
 Actions: The count goes down when the player plants a seed
 
-How do these objects act on or affect each other?
+3. How do these objects act on or affect each other?
+
 Players can grow plants, which appear when the player presses the space.
 
 ## Devlog
